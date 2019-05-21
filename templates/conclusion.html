@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -39,44 +39,35 @@
             <div class="col-md-7 text-center my-col">
                 <h1 class="text-center">Summary</h1>
                 <hr>
-                <h4>Our original objective was to analyze various NBA metrics to find the optimal Fanduel fantasy
-                    basketball lineup. We were able to scrape NBA.com and create a SQLite database with minimal
-                    challenges. However, connecting the Flask app and rendering meaningful graphs was considerably more
-                    difficulty than we thought it would be. In the end, we were able to assemble a filterable table
-                    with data from Flask, graphs using D3 and Plotly, JQuery for DOM animation and effects, and some
-                    pretty sweet animated GIFs.</h4>
+                <h4>Having prior knowledge of how to clean, organize, and loop through data in Python made building the 
+                    machine learning models easier than we thought it would be. In addition, we were able to build 
+                    visualizations to engineer the machine learning features and validate the predictions more easily 
+                    in Tableau than in D3 or Plotly. Although our model results ended up being fairly mediocre, we are 
+                    clearly on the right track and with some some additional feature engineering and fine tuning of the 
+                    model we could have a fairly reliable forecasting algorithm.</h4>
             </div>
 
+
+
+
             <div class="col-md-4 text-center my-col">
-                <br>
-                <h4>FanDuel Point Structure</h4>
-                <hr>
-                <br>
-                <a href=""> 3-Point Shot Made (3P): 1 Point</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Assists (A): 1.5 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Blocks (B): 3 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Field Goal Made (FG): 2 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Free Throw Made (FT): 1 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Rebounds (R): 1.2 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Steals (S): 3 Points</a>
-                <br>
-                <!-- <hr> -->
-                <a href=""> Turnovers (T): -1 Point</a>
-
-
-                <img src="img/fanduel_logo.gif" alt="" style="width:300px;height:150px">
+                    <br>
+                    <h3>Wishlist</h3>
+                    <hr>
+                    <!-- <a target="_blank" href="/NBA_Alex/templates/3pointers.html"> 3-Point Shot Made (3P): 1 Point</a> -->
+                    <h5>With more time, we would have:</h5>
+                    <br>
+                    <h6>1 - Combined our HTML and JavaScript files to be consistent</h6>
+                    <br>
+                    <h6>2 - Connected all of the graphs to the Flask app</h6>
+                    <br>
+                    <h6>3 - Separated each of the metrics by position</h6>
+                    <br>
+                    <h6>4 - Analyzed each of the metrics for correlation with future performance</h6>
+                    <br>
+                    <h6>5 - Gathered/manipulated data to include entire 18/19 Regular Season</h6>
+                    <!-- <hr> -->
+    
 
 
             </div>
@@ -89,14 +80,14 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="../index.html">
                                 <span data-feather="home"></span>
                                 NBA Dashboard <span class="sr-only">(current)</span>
                                 <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="data_gathering/NBA_Regression_FINAL.html" target='_blank'> Data
+                            <a class="nav-link" href="../data_gathering/NBA_Regression_FINAL.html" target='_blank'> Data
                                 Gathering
                             </a>
                         </li>
@@ -106,31 +97,31 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="templates/fantasy_results.html">
+                            <a class="nav-link" href="../templates/fantasy_results.html">
                                 <span data-feather="bar-chart-2"></span>
                                 Fantasy Pts (95-5)
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="templates/fantasy_results1.html">
+                            <a class="nav-link" href="../templates/fantasy_results1.html">
                                 <span data-feather="bar-chart-2"></span>
                                 Fantasy Pts (80-20Rolling)
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="templates/fantasy_results2.html">
+                            <a class="nav-link" href="../templates/fantasy_results2.html">
                                 <span data-feather="bar-chart-2"></span>
                                 Fantasy Pts (80-20Sat)
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="templates/fanduel_results.html">
+                            <a class="nav-link" href="../templates/fanduel_results.html">
                                 <span data-feather="bar-chart-2"></span>
                                 Fanduel Results
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="templates/conclusion.html">
+                            <a class="nav-link active" href="../templates/conclusion.html">
                                 <span data-feather="bar-chart-2"></span>
                                 Conclusion ($)
                             </a>
@@ -148,7 +139,7 @@
                             <br>
                             <br>
                             <!-- <br> -->
-                            <img src="img/nba_logo_rect.jpg" alt="NBA" style="width:235px;height:125px">
+                            <img src="../img/nba_logo_rect.jpg" alt="NBA" style="width:235px;height:125px">
                         </li>
                     </ul>
                 </div>
