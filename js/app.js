@@ -278,7 +278,7 @@ function renderTable() {
             .attr("x", 0 - (chartHeight / 1.5))
             .attr("dy", "1em")
             .attr("class", "axisText")
-            .text("AVG vs PROJECTED vs ACTUAL")
+            .text("AVG FANTASY POINTS")
             .attr("font-family", "sans-serif")
             .attr("font-size", "16px")
 
