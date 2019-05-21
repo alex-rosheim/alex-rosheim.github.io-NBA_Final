@@ -1,0 +1,10 @@
+﻿Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,Projected_Fantasy_Pts,Actual_Fantasy_Pts,Difference_Fantasy_Pts
+35499-9621,C,Brook,Brook Lopez,Lopez,27.64444384,81,5800,MIL@TOR,MIL,TOR,,,,32.6,30.7,-1.9
+35499-12342,PF,Al-Farouq,Al-Farouq Aminu,Aminu,23.19753086,81,4000,GS@POR,POR,GS,,,,26.8,12.4,-14.4
+35499-60021,PF,Pascal,Pascal Siakam,Siakam,32.57250061,80,7300,MIL@TOR,TOR,MIL,,,,37.2,48.7,11.5
+35499-12355,PG,Eric,Eric Bledsoe,Bledsoe,33.21025516,78,5400,MIL@TOR,MIL,TOR,,,,29.1,27.3,-1.8
+35499-9535,PG,Kyle,Kyle Lowry,Lowry,35.46212121,66,7500,MIL@TOR,TOR,MIL,,,,35.9,25.3,-10.6
+35499-40199,SF,Giannis,Giannis Antetokounmpo,Antetokounmpo,56.223285,73,12000,MIL@TOR,MIL,TOR,,,,52.4,57.1,4.7
+35499-16178,SF,Maurice,Maurice Harkless,Harkless,20.14666748,60,4900,GS@POR,POR,GS,,,,27.6,24.6,-3
+35499-19067,SG,CJ,CJ McCollum,McCollum,32.28428432,70,7900,GS@POR,POR,GS,,,,41.7,39.1,-2.6
+35499-15993,SG,Pat,Pat Connaughton,Connaughton,17.28852419,61,5000,MIL@TOR,MIL,TOR,,,,25.1,14.6,-10.5

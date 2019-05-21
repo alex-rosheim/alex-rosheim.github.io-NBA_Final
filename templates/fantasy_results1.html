@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>NBA - Fantasy Results</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">NBA Stats Visualizations</a>
+        <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="FILTER DATE => 2019-04-01"
+            aria-label="Search" id='datefilter'>
+        <BR>
+        <button id=myButton>GO</button> -->
+
+        <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="https://www.fanduel.com/" target='_blank'>FanDuel Contests</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">
+                                <span data-feather="home"></span>
+                                NBA Dashboard <span class="sr-only">(current)</span>
+                                <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/data_gathering/NBA_Regression_FINAL.html" target='_blank'> Data
+                                Gathering
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://public.tableau.com/profile/royal.taylor#!/vizhome/NBADashboards/NBAStory?publish=yes"
+                                target='_blank'> Tableau Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="/templates/fantasy_results.html">
+                                    <span data-feather="bar-chart-2"></span>
+                                    Fantasy Pts (95-5)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/templates/fantasy_results1.html">
+                                    <span data-feather="bar-chart-2"></span>
+                                    Fantasy Pts (80-20Rolling)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/templates/fantasy_results2.html">
+                                    <span data-feather="bar-chart-2"></span>
+                                    Fantasy Pts (80-20Sat)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/templates/fanduel_results.html">
+                                    <span data-feather="bar-chart-2"></span>
+                                    Fanduel Results
+                                </a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/templates/conclusion.html">
+                                <span data-feather="bar-chart-2"></span>
+                                Conclusion ($)
+                            </a>
+                        </li>
+                        <li>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <!-- <br> -->
+                            <img src="/img/nba_logo_rect.jpg" alt="NBA" style="width:235px;height:125px">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="/js/app1.js"></script>
+
+</body>
+
+</html>
