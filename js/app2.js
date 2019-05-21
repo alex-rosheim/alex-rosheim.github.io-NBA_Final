@@ -48,7 +48,7 @@ function renderTable() {
         .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
 
     // Load data from hours-of-tv-watched.csv
-    d3.csv("/resources/80_20_SatPredictions.csv", function (error, nbaData) {
+    d3.csv("resources/80_20_SatPredictions.csv", function (error, nbaData) {
 
         // /js/app.js
 
